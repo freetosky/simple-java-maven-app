@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                sh './jenkins/script/deliver.sh'
+                sh '/var/project/freetosky/GitHub/simple-java-maven-app/jenkins/scripts'
             }
         }
     }
